@@ -1,1 +1,1 @@
-# N-Queens-in-Go
+# N-Queens_in_Go
