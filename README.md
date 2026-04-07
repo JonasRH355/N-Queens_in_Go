@@ -5,7 +5,7 @@ The n-queens puzzle is the problem of placing n queens on an n x n chessboard su
 Given an integer n, return all a distinct solutions to the n-queens puzzle. 
 
 ## HOW to RUN
-### 1. Run the main
+### 1. Run it into the backend dir to turn on the server
 ```
 go run ./cmd/api
 ```
