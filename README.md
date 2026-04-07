@@ -2,7 +2,7 @@
 
 The n-queens puzzle is the problem of placing n queens on an n x n chessboard such that no two queens attack each other.
 
-Given an integer n, return all distinct solutions to the n-queens puzzle. You may return the answer in any order.
+Given an integer n, return all a distinct solutions to the n-queens puzzle. 
 
 ## HOW to RUN
 ### 1. Run the main
@@ -29,4 +29,4 @@ curl -X POST http://localhost:8080/solve \
 ```
 <br>
 <br>
-After the server run the informations, it will send back to you how much nodes was needed and the time to solve the problem
+After the server runs the informations, it will send back to you how much nodes was needed and the time to solve the problem
