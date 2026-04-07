@@ -26,14 +26,6 @@ func SolveHandler(w http.ResponseWriter, r *http.Request) {
 
 	start := time.Now()
 
-	// var result algorithms.Result
-
-	// if req.Algorithm == "dfs" {
-	// 	result = algorithms.DFS(req.N)
-	// } else {
-	// 	result = algorithms.BFS(req.N)
-	// }
-
 	result := metrics.Measure(func() ([]int, int) {
 		if req.Algorithm == "dfs" {
 			r := algorithms.DFS(req.N)
